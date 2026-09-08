@@ -1,0 +1,50 @@
+[
+    {
+        "timestamp": "2026-08-14T10:00:15Z",
+        "src_ip": "192.168.1.105",
+        "src_port": 49201,
+        "service": "Modbus/TCP",
+        "payload": "000100000006010300000002",
+        "attack_type": "Modbus Protocol Manipulation"
+    },
+    {
+        "timestamp": "2026-08-14T10:05:42Z",
+        "src_ip": "10.0.0.42",
+        "src_port": 53112,
+        "service": "MQTT",
+        "payload": "CONNECT /scada/telemetry/plc1",
+        "attack_type": "MQTT Unauthorized Connect"
+    },
+    {
+        "timestamp": "2026-08-14T10:12:08Z",
+        "src_ip": "172.16.0.8",
+        "src_port": 38104,
+        "service": "HTTP",
+        "payload": "GET /admin?cmd=cat%20/etc/passwd HTTP/1.1",
+        "attack_type": "Command Injection on PLC Gateway"
+    },
+    {
+        "timestamp": "2026-08-14T10:18:55Z",
+        "src_ip": "192.168.1.105",
+        "src_port": 51004,
+        "service": "SSH",
+        "payload": "root:admin1234",
+        "attack_type": "Brute Force Attempt"
+    },
+    {
+        "timestamp": "2026-08-14T10:25:30Z",
+        "src_ip": "10.0.0.42",
+        "src_port": 54220,
+        "service": "HTTP",
+        "payload": "POST /login ' UNION SELECT 1, 'admin', 'password'--",
+        "attack_type": "SQL Injection on SCADA Portal"
+    },
+    {
+        "timestamp": "2026-08-14T10:31:10Z",
+        "src_ip": "172.16.0.12",
+        "src_port": 41200,
+        "service": "Modbus/TCP",
+        "payload": "000200000006010600010001",
+        "attack_type": "Modbus Protocol Manipulation"
+    }
+]
