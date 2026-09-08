@@ -35,4 +35,4 @@ A non-disruptive, deceptive security framework engineered to emulate Supervisory
 
 ## 👤 Author
 
-Created by **Manomay Saxena** — *Cyber Security Essentials Certification - Capstone Project*.
+Created by **Manomay Saxena** — *Cyber Security Essentials Certification (Capstone Project)*.
